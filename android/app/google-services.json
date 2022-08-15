@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1029294093203",
+    "project_id": "curreny36website",
+    "storage_bucket": "curreny36website.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029294093203:android:7aa27bc7bbc9584b7f6e66",
+        "android_client_info": {
+          "package_name": "com.current.aditya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029294093203-9sajijeqkicbgsd30dso0me69bvs0efl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.current.aditya",
+            "certificate_hash": "6932de3a3783b808eafc7cb7c63d362b0930a45b"
+          }
+        },
+        {
+          "client_id": "1029294093203-pgmha5cvnc4v1khi3jmu98n75ago4oma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.current.aditya",
+            "certificate_hash": "9fd0d9c8aa3c4f73d775ab270e3c3ef2ec43fcdd"
+          }
+        },
+        {
+          "client_id": "1029294093203-ptt1g8bao1f3tnukjpaja6l91bsiaj8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.current.aditya",
+            "certificate_hash": "c38652894748440575936a075356223902fea593"
+          }
+        },
+        {
+          "client_id": "1029294093203-vrqfn5d7tf4edqi0oqj2bf69k27qtcur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdtWy32lQNd1YkoCH4hnIc1nAuDfHvC7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029294093203-vrqfn5d7tf4edqi0oqj2bf69k27qtcur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
