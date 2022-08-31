@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:share/share.dart';
@@ -14,7 +16,6 @@ import 'package:wordpress_app/pages/welcome.dart';
 import 'package:wordpress_app/services/app_service.dart';
 import 'package:wordpress_app/utils/next_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
-import '../widgets/language.dart';
 
 class SettingPage extends StatefulWidget {
   SettingPage({Key? key}) : super(key: key);
@@ -564,6 +565,29 @@ class UserUI extends StatelessWidget {
           ).tr(),
           trailing: Icon(Feather.chevron_right),
           onTap: () => openLogoutDialog(context),
+        ),
+        _Divider(),
+        Visibility(
+          visible: Platform.isIOS,
+          child: ListTile(
+            contentPadding: EdgeInsets.all(0),
+            leading: CircleAvatar(
+              backgroundColor: Colors.redAccent[100],
+              radius: 18,
+              child: Icon(
+                Icons.delete,
+                size: 18,
+                color: Colors.white,
+              ),
+            ),
+            title: Text(
+              'Delete Account',
+              style: TextStyle(
+                  fontSize: 16, fontWeight: FontWeight.w500, color: Colors.red),
+            ),
+            trailing: Icon(Feather.chevron_right),
+            onTap: () => _handleLogout(context),
+          ),
         ),
       ],
     );
